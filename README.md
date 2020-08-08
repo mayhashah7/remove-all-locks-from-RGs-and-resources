@@ -8,4 +8,4 @@ Currently in Azure there is not a built in option to remove all locks at/under a
 5. Run a “Resource Graph Query” in PowerShell to acquire all Resources with the tag Lock : True
 6. Loop through all returned resource groups and remove the lock on each one
 
-Note: If you have subscriptions that are locked, you would need to remove those locks first
+Note: If the subcription itself is locked, that lock would need to be removed first
